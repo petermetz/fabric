@@ -17,9 +17,9 @@ limitations under the License.
 package policyprovider
 
 import (
-	"github.com/hyperledger/fabric/core/peer"
-	"github.com/hyperledger/fabric/core/policy"
-	"github.com/hyperledger/fabric/msp/mgmt"
+	"github.com/petermetz/fabric/core/peer"
+	"github.com/petermetz/fabric/core/policy"
+	"github.com/petermetz/fabric/msp/mgmt"
 )
 
 // init is called when this package is loaded. This implementation registers the factory

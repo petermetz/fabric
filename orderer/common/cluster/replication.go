@@ -13,12 +13,12 @@ import (
 	"encoding/pem"
 	"time"
 
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/common/crypto"
+	"github.com/petermetz/fabric/common/flogging"
+	"github.com/petermetz/fabric/core/comm"
+	"github.com/petermetz/fabric/orderer/common/localconfig"
+	"github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

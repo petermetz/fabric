@@ -14,13 +14,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	"github.com/hyperledger/fabric/gossip/metrics/mocks"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/petermetz/fabric/common/metrics/disabled"
+	"github.com/petermetz/fabric/gossip/common"
+	"github.com/petermetz/fabric/gossip/discovery"
+	"github.com/petermetz/fabric/gossip/metrics"
+	"github.com/petermetz/fabric/gossip/metrics/mocks"
+	"github.com/petermetz/fabric/gossip/util"
+	proto "github.com/petermetz/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

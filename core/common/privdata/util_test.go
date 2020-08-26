@@ -9,7 +9,7 @@ package privdata
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

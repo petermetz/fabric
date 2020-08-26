@@ -5,7 +5,7 @@ import (
 	context "context"
 	sync "sync"
 
-	comm "github.com/hyperledger/fabric/core/comm"
+	comm "github.com/petermetz/fabric/core/comm"
 )
 
 type Semaphore struct {

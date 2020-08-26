@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/config"
+	"github.com/petermetz/fabric/common/flogging"
+	"github.com/petermetz/fabric/core/config"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

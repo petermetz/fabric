@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package manager
 
 import (
-	"github.com/hyperledger/fabric/token/identity"
+	"github.com/petermetz/fabric/token/identity"
 	"github.com/pkg/errors"
 )
 

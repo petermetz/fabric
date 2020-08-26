@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/common"
 	"github.com/pkg/errors"
 )
 

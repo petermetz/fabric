@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
+	"github.com/petermetz/fabric/core/config/configtest"
 	"github.com/stretchr/testify/assert"
 )
 

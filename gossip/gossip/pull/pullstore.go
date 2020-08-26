@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/gossip/algo"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/petermetz/fabric/gossip/comm"
+	"github.com/petermetz/fabric/gossip/common"
+	"github.com/petermetz/fabric/gossip/discovery"
+	"github.com/petermetz/fabric/gossip/gossip/algo"
+	"github.com/petermetz/fabric/gossip/util"
+	proto "github.com/petermetz/fabric/protos/gossip"
 	"github.com/pkg/errors"
 	"go.uber.org/zap/zapcore"
 )

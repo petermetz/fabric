@@ -20,13 +20,13 @@ import (
 	"bytes"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/flogging"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/msp"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/common/channelconfig"
+	"github.com/petermetz/fabric/common/flogging"
+	mspmgmt "github.com/petermetz/fabric/msp/mgmt"
+	"github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/msp"
+	pb "github.com/petermetz/fabric/protos/peer"
+	"github.com/petermetz/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

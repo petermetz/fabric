@@ -10,10 +10,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/mock"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/petermetz/fabric/common/flogging"
+	"github.com/petermetz/fabric/core/ledger"
+	"github.com/petermetz/fabric/core/ledger/mock"
+	"github.com/petermetz/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/assert"
 )
 

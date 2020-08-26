@@ -11,11 +11,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-amcl/amcl/FP256BN"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/idemix/bridge"
-	"github.com/hyperledger/fabric/bccsp/idemix/handlers"
-	"github.com/hyperledger/fabric/bccsp/idemix/handlers/mock"
-	cryptolib "github.com/hyperledger/fabric/idemix"
+	"github.com/petermetz/fabric/bccsp"
+	"github.com/petermetz/fabric/bccsp/idemix/bridge"
+	"github.com/petermetz/fabric/bccsp/idemix/handlers"
+	"github.com/petermetz/fabric/bccsp/idemix/handlers/mock"
+	cryptolib "github.com/petermetz/fabric/idemix"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

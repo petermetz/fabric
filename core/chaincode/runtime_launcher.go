@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/container/inproccontroller"
+	"github.com/petermetz/fabric/core/common/ccprovider"
+	"github.com/petermetz/fabric/core/container/inproccontroller"
 	"github.com/pkg/errors"
 )
 

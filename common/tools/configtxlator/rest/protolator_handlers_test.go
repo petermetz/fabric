@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	cb "github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

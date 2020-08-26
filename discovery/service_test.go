@@ -14,12 +14,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/gossip/api"
-	gcommon "github.com/hyperledger/fabric/gossip/common"
-	gdisc "github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/gossip"
+	"github.com/petermetz/fabric/gossip/api"
+	gcommon "github.com/petermetz/fabric/gossip/common"
+	gdisc "github.com/petermetz/fabric/gossip/discovery"
+	"github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/discovery"
+	"github.com/petermetz/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

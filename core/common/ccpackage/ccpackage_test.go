@@ -22,14 +22,14 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/common/cauthdsl"
+	"github.com/petermetz/fabric/msp"
+	mspmgmt "github.com/petermetz/fabric/msp/mgmt"
+	"github.com/petermetz/fabric/msp/mgmt/testtools"
+	"github.com/petermetz/fabric/protos/common"
+	mspprotos "github.com/petermetz/fabric/protos/msp"
+	"github.com/petermetz/fabric/protos/peer"
+	"github.com/petermetz/fabric/protos/utils"
 )
 
 func ownerCreateCCDepSpec(codepackage []byte, sigpolicy *common.SignaturePolicyEnvelope, owner msp.SigningIdentity) (*common.Envelope, error) {

@@ -4,7 +4,7 @@ package mock
 import (
 	sync "sync"
 
-	flogging "github.com/hyperledger/fabric/common/flogging"
+	flogging "github.com/petermetz/fabric/common/flogging"
 	zapcore "go.uber.org/zap/zapcore"
 )
 

@@ -25,16 +25,16 @@ import (
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-lib-go/healthz"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/core/aclmgmt/resources"
-	"github.com/hyperledger/fabric/integration/nwo"
-	"github.com/hyperledger/fabric/integration/nwo/commands"
-	"github.com/hyperledger/fabric/integration/nwo/fabricconfig"
-	"github.com/hyperledger/fabric/protos/common"
-	protosorderer "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/orderer/etcdraft"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/common/tools/configtxgen/encoder"
+	"github.com/petermetz/fabric/common/tools/configtxgen/localconfig"
+	"github.com/petermetz/fabric/core/aclmgmt/resources"
+	"github.com/petermetz/fabric/integration/nwo"
+	"github.com/petermetz/fabric/integration/nwo/commands"
+	"github.com/petermetz/fabric/integration/nwo/fabricconfig"
+	"github.com/petermetz/fabric/protos/common"
+	protosorderer "github.com/petermetz/fabric/protos/orderer"
+	"github.com/petermetz/fabric/protos/orderer/etcdraft"
+	"github.com/petermetz/fabric/protos/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
@@ -63,7 +63,7 @@ var _ = Describe("EndToEnd", func() {
 		chaincode = nwo.Chaincode{
 			Name:    "mycc",
 			Version: "0.0",
-			Path:    "github.com/hyperledger/fabric/integration/chaincode/simple/cmd",
+			Path:    "github.com/petermetz/fabric/integration/chaincode/simple/cmd",
 			Ctor:    `{"Args":["init","a","100","b","200"]}`,
 			Policy:  `AND ('Org1MSP.member','Org2MSP.member')`,
 		}

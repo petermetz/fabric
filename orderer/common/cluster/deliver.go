@@ -15,12 +15,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/common/crypto"
+	"github.com/petermetz/fabric/common/flogging"
+	"github.com/petermetz/fabric/common/util"
+	"github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/orderer"
+	"github.com/petermetz/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )

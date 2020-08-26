@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/metrics"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/petermetz/fabric/gossip/common"
+	"github.com/petermetz/fabric/gossip/discovery"
+	"github.com/petermetz/fabric/gossip/metrics"
+	"github.com/petermetz/fabric/gossip/util"
+	proto "github.com/petermetz/fabric/protos/gossip"
 )
 
 type msgImpl struct {

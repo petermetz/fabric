@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/handlers/validation/api/state"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/petermetz/fabric/common/flogging"
+	"github.com/petermetz/fabric/core/handlers/validation/api/state"
+	"github.com/petermetz/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	pb "github.com/petermetz/fabric/protos/peer"
 	"github.com/pkg/errors"
 )
 

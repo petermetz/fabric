@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/orderer"
+	"github.com/petermetz/fabric/protos/orderer"
 )
 
 // TypeKey is the string with which this consensus implementation is identified across Fabric.

@@ -10,10 +10,10 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/chaincode/lifecycle"
-	"github.com/hyperledger/fabric/core/chaincode/lifecycle/mock"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	lb "github.com/hyperledger/fabric/protos/peer/lifecycle"
+	"github.com/petermetz/fabric/core/chaincode/lifecycle"
+	"github.com/petermetz/fabric/core/chaincode/lifecycle/mock"
+	"github.com/petermetz/fabric/core/chaincode/shim"
+	lb "github.com/petermetz/fabric/protos/peer/lifecycle"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -42,7 +42,7 @@ var _ = Describe("SCC", func() {
 
 	Describe("Path", func() {
 		It("returns the path", func() {
-			Expect(scc.Path()).To(Equal("github.com/hyperledger/fabric/core/chaincode/lifecycle"))
+			Expect(scc.Path()).To(Equal("github.com/petermetz/fabric/core/chaincode/lifecycle"))
 		})
 	})
 

@@ -9,17 +9,17 @@ package multichannel
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/capabilities"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/common/capabilities"
+	"github.com/petermetz/fabric/common/channelconfig"
+	"github.com/petermetz/fabric/common/configtx"
+	"github.com/petermetz/fabric/common/tools/configtxgen/configtxgentest"
+	"github.com/petermetz/fabric/common/tools/configtxgen/encoder"
+	genesisconfig "github.com/petermetz/fabric/common/tools/configtxgen/localconfig"
+	"github.com/petermetz/fabric/orderer/common/blockcutter"
+	"github.com/petermetz/fabric/orderer/common/msgprocessor"
+	"github.com/petermetz/fabric/orderer/consensus"
+	cb "github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/utils"
 )
 
 type mockConsenter struct {

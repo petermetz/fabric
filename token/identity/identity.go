@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package identity
 
 import (
-	"github.com/hyperledger/fabric/msp"
+	"github.com/petermetz/fabric/msp"
 )
 
 // IssuingValidator is used to establish if the creator can issue tokens of the passed type.

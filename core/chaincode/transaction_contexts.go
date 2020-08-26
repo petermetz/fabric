@@ -10,10 +10,10 @@ import (
 	"context"
 	"sync"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	commonledger "github.com/petermetz/fabric/common/ledger"
+	"github.com/petermetz/fabric/core/common/ccprovider"
+	"github.com/petermetz/fabric/core/ledger"
+	pb "github.com/petermetz/fabric/protos/peer"
 	"github.com/pkg/errors"
 )
 

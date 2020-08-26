@@ -10,14 +10,14 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/common/channelconfig"
+	"github.com/petermetz/fabric/common/configtx"
+	"github.com/petermetz/fabric/common/crypto"
+	"github.com/petermetz/fabric/common/policies"
+	cb "github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/utils"
 
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
+	"github.com/petermetz/fabric/orderer/common/localconfig"
 	"github.com/pkg/errors"
 )
 

@@ -11,8 +11,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/hyperledger/fabric/integration/helpers"
-	"github.com/hyperledger/fabric/integration/runner"
+	"github.com/petermetz/fabric/integration/helpers"
+	"github.com/petermetz/fabric/integration/runner"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
 )
@@ -34,27 +34,27 @@ func (c *Components) Build(args ...string) {
 	if c.Paths == nil {
 		c.Paths = map[string]string{}
 	}
-	cryptogen, err := gexec.Build("github.com/hyperledger/fabric/common/tools/cryptogen", args...)
+	cryptogen, err := gexec.Build("github.com/petermetz/fabric/common/tools/cryptogen", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["cryptogen"] = cryptogen
 
-	idemixgen, err := gexec.Build("github.com/hyperledger/fabric/common/tools/idemixgen", args...)
+	idemixgen, err := gexec.Build("github.com/petermetz/fabric/common/tools/idemixgen", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["idemixgen"] = idemixgen
 
-	configtxgen, err := gexec.Build("github.com/hyperledger/fabric/common/tools/configtxgen", args...)
+	configtxgen, err := gexec.Build("github.com/petermetz/fabric/common/tools/configtxgen", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["configtxgen"] = configtxgen
 
-	orderer, err := gexec.Build("github.com/hyperledger/fabric/orderer", args...)
+	orderer, err := gexec.Build("github.com/petermetz/fabric/orderer", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["orderer"] = orderer
 
-	peer, err := gexec.Build("github.com/hyperledger/fabric/peer", args...)
+	peer, err := gexec.Build("github.com/petermetz/fabric/peer", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["peer"] = peer
 
-	discover, err := gexec.Build("github.com/hyperledger/fabric/cmd/discover", args...)
+	discover, err := gexec.Build("github.com/petermetz/fabric/cmd/discover", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["discover"] = discover
 }

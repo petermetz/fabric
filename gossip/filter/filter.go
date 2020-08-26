@@ -9,9 +9,9 @@ package filter
 import (
 	"math/rand"
 
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/petermetz/fabric/gossip/comm"
+	"github.com/petermetz/fabric/gossip/discovery"
+	"github.com/petermetz/fabric/gossip/util"
 )
 
 // RoutingFilter defines a predicate on a NetworkMember

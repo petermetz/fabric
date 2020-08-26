@@ -5,8 +5,8 @@ import (
 	sync "sync"
 
 	proto "github.com/golang/protobuf/proto"
-	ccprovider "github.com/hyperledger/fabric/core/common/ccprovider"
-	peer "github.com/hyperledger/fabric/protos/peer"
+	ccprovider "github.com/petermetz/fabric/core/common/ccprovider"
+	peer "github.com/petermetz/fabric/protos/peer"
 )
 
 type CCPackage struct {

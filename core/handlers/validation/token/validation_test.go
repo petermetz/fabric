@@ -9,7 +9,7 @@ package token_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/handlers/validation/token"
+	"github.com/petermetz/fabric/core/handlers/validation/token"
 	"github.com/stretchr/testify/assert"
 )
 

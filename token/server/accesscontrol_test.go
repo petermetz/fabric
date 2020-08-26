@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package server_test
 
 import (
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/token"
-	"github.com/hyperledger/fabric/token/server"
-	"github.com/hyperledger/fabric/token/server/mock"
+	"github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/token"
+	"github.com/petermetz/fabric/token/server"
+	"github.com/petermetz/fabric/token/server/mock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/pkg/errors"

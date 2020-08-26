@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockblockcutter "github.com/hyperledger/fabric/orderer/mocks/common/blockcutter"
-	mockmultichannel "github.com/hyperledger/fabric/orderer/mocks/common/multichannel"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/common/flogging"
+	mockconfig "github.com/petermetz/fabric/common/mocks/config"
+	mockblockcutter "github.com/petermetz/fabric/orderer/mocks/common/blockcutter"
+	mockmultichannel "github.com/petermetz/fabric/orderer/mocks/common/multichannel"
+	cb "github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

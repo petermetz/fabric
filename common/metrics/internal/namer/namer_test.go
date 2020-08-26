@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package namer
 
 import (
-	"github.com/hyperledger/fabric/common/metrics"
+	"github.com/petermetz/fabric/common/metrics"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

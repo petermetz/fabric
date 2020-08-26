@@ -19,7 +19,7 @@ package ramledger
 import (
 	"testing"
 
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
+	genesisconfig "github.com/petermetz/fabric/common/tools/configtxgen/localconfig"
 )
 
 func TestGetOrCreate(t *testing.T) {

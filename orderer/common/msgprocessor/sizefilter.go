@@ -9,8 +9,8 @@ package msgprocessor
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/petermetz/fabric/common/channelconfig"
+	"github.com/petermetz/fabric/protos/common"
 )
 
 // SizeFilterResources defines the subset of the channel resources required to create this filter

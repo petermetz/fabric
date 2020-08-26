@@ -13,8 +13,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hyperledger/fabric/protos/token"
-	tk "github.com/hyperledger/fabric/token"
+	"github.com/petermetz/fabric/protos/token"
+	tk "github.com/petermetz/fabric/token"
 	"github.com/pkg/errors"
 )
 

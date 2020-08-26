@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	config "github.com/hyperledger/fabric/orderer/common/localconfig"
+	"github.com/petermetz/fabric/common/metrics/disabled"
+	"github.com/petermetz/fabric/core/config/configtest"
+	config "github.com/petermetz/fabric/orderer/common/localconfig"
 	"github.com/stretchr/testify/assert"
 )
 

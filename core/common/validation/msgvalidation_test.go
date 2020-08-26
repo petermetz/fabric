@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/common/util"
+	"github.com/petermetz/fabric/msp/mgmt"
+	"github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/peer"
+	"github.com/petermetz/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

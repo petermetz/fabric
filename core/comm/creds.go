@@ -14,7 +14,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/petermetz/fabric/common/flogging"
 	"google.golang.org/grpc/credentials"
 )
 

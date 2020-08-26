@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	protopeer "github.com/hyperledger/fabric/protos/peer"
+	"github.com/petermetz/fabric/core/ledger"
+	protopeer "github.com/petermetz/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

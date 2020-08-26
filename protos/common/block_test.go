@@ -21,7 +21,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
+	"github.com/petermetz/fabric/common/util"
 	"github.com/stretchr/testify/assert"
 )
 

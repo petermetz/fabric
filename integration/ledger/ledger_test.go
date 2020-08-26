@@ -19,9 +19,9 @@ import (
 	. "github.com/onsi/gomega"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/integration/nwo"
-	"github.com/hyperledger/fabric/integration/nwo/commands"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/petermetz/fabric/integration/nwo"
+	"github.com/petermetz/fabric/integration/nwo/commands"
+	"github.com/petermetz/fabric/protos/common"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
 	"github.com/tedsuo/ifrit"
@@ -55,7 +55,7 @@ var _ bool = Describe("Rollback & Reset Ledger", func() {
 		chaincode := nwo.Chaincode{
 			Name:              "marblesp",
 			Version:           "1.0",
-			Path:              "github.com/hyperledger/fabric/integration/chaincode/marbles_private/cmd",
+			Path:              "github.com/petermetz/fabric/integration/chaincode/marbles_private/cmd",
 			Ctor:              `{"Args":["init"]}`,
 			Policy:            `OR ('Org1MSP.member','Org2MSP.member', 'Org3MSP.member')`,
 			CollectionsConfig: filepath.Join("testdata", "collection_configs", "collections_config1.json")}

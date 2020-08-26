@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package queryutil
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/petermetz/fabric/common/flogging"
+	commonledger "github.com/petermetz/fabric/common/ledger"
+	"github.com/petermetz/fabric/core/ledger/kvledger/txmgmt/statedb"
 )
 
 var logger = flogging.MustGetLogger("util")

@@ -23,9 +23,9 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/petermetz/fabric/bccsp"
+	"github.com/petermetz/fabric/bccsp/factory"
+	pb "github.com/petermetz/fabric/protos/peer"
 )
 
 //----- CDSData ------

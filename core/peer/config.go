@@ -26,9 +26,9 @@ import (
 	"net"
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/config"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/petermetz/fabric/core/comm"
+	"github.com/petermetz/fabric/core/config"
+	pb "github.com/petermetz/fabric/protos/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 )

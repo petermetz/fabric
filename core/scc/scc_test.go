@@ -11,10 +11,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/container/inproccontroller"
-	"github.com/hyperledger/fabric/core/ledger/ledgermgmt"
-	ccprovider2 "github.com/hyperledger/fabric/core/mocks/ccprovider"
-	"github.com/hyperledger/fabric/core/peer"
+	"github.com/petermetz/fabric/core/container/inproccontroller"
+	"github.com/petermetz/fabric/core/ledger/ledgermgmt"
+	ccprovider2 "github.com/petermetz/fabric/core/mocks/ccprovider"
+	"github.com/petermetz/fabric/core/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

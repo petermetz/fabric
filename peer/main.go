@@ -11,12 +11,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hyperledger/fabric/peer/chaincode"
-	"github.com/hyperledger/fabric/peer/channel"
-	"github.com/hyperledger/fabric/peer/clilogging"
-	"github.com/hyperledger/fabric/peer/common"
-	"github.com/hyperledger/fabric/peer/node"
-	"github.com/hyperledger/fabric/peer/version"
+	"github.com/petermetz/fabric/peer/chaincode"
+	"github.com/petermetz/fabric/peer/channel"
+	"github.com/petermetz/fabric/peer/clilogging"
+	"github.com/petermetz/fabric/peer/common"
+	"github.com/petermetz/fabric/peer/node"
+	"github.com/petermetz/fabric/peer/version"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

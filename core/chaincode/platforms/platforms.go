@@ -13,9 +13,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metadata"
-	cutil "github.com/hyperledger/fabric/core/container/util"
+	"github.com/petermetz/fabric/common/flogging"
+	"github.com/petermetz/fabric/common/metadata"
+	cutil "github.com/petermetz/fabric/core/container/util"
 )
 
 //MetadataProvider is implemented by each platform in a platform specific manner.

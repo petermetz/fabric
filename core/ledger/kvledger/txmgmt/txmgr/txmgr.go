@@ -17,10 +17,10 @@ limitations under the License.
 package txmgr
 
 import (
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/petermetz/fabric/core/ledger"
+	"github.com/petermetz/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/peer"
 )
 
 // TxMgr - an interface that a transaction manager should implement

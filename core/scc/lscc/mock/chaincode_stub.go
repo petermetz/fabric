@@ -5,8 +5,8 @@ import (
 	sync "sync"
 
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	shim "github.com/hyperledger/fabric/core/chaincode/shim"
-	peer "github.com/hyperledger/fabric/protos/peer"
+	shim "github.com/petermetz/fabric/core/chaincode/shim"
+	peer "github.com/petermetz/fabric/protos/peer"
 )
 
 type ChaincodeStub struct {

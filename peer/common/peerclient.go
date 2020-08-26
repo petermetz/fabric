@@ -13,10 +13,10 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/peer/common/api"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/petermetz/fabric/core/comm"
+	"github.com/petermetz/fabric/core/config"
+	"github.com/petermetz/fabric/peer/common/api"
+	pb "github.com/petermetz/fabric/protos/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 )

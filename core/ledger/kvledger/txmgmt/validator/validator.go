@@ -17,9 +17,9 @@ limitations under the License.
 package validator
 
 import (
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/petermetz/fabric/core/ledger"
+	"github.com/petermetz/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/petermetz/fabric/core/ledger/kvledger/txmgmt/txmgr"
 )
 
 // Validator validates the transactions present in a block and returns a batch that should be used to update the state

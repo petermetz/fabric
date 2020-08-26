@@ -16,12 +16,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/ccmetadata"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/util"
-	cutil "github.com/hyperledger/fabric/core/container/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/petermetz/fabric/common/flogging"
+	"github.com/petermetz/fabric/core/chaincode/platforms"
+	"github.com/petermetz/fabric/core/chaincode/platforms/ccmetadata"
+	"github.com/petermetz/fabric/core/chaincode/platforms/util"
+	cutil "github.com/petermetz/fabric/core/container/util"
+	pb "github.com/petermetz/fabric/protos/peer"
 )
 
 var logger = flogging.MustGetLogger("chaincode.platform.java")

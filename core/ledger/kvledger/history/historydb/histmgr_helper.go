@@ -19,7 +19,7 @@ package historydb
 import (
 	"bytes"
 
-	"github.com/hyperledger/fabric/common/ledger/util"
+	"github.com/petermetz/fabric/common/ledger/util"
 )
 
 // CompositeKeySep is a nil byte used as a separator between different components of a composite key

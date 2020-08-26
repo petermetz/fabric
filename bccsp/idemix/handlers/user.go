@@ -8,7 +8,7 @@ package handlers
 import (
 	"crypto/sha256"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/petermetz/fabric/bccsp"
 	"github.com/pkg/errors"
 )
 

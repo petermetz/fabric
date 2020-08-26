@@ -9,8 +9,8 @@ package configtxgentest
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/core/config/configtest"
+	"github.com/petermetz/fabric/common/tools/configtxgen/localconfig"
+	"github.com/petermetz/fabric/core/config/configtest"
 )
 
 func Load(profile string) *localconfig.Profile {

@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/common/util"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/petermetz/fabric/bccsp"
+	"github.com/petermetz/fabric/common/util"
+	cb "github.com/petermetz/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,8 @@ package mock
 import (
 	sync "sync"
 
-	ledger "github.com/hyperledger/fabric/common/ledger"
-	ledgera "github.com/hyperledger/fabric/core/ledger"
+	ledger "github.com/petermetz/fabric/common/ledger"
+	ledgera "github.com/petermetz/fabric/core/ledger"
 )
 
 type QueryExecutor struct {

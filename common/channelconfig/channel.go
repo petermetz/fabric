@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/common/capabilities"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/petermetz/fabric/bccsp"
+	"github.com/petermetz/fabric/common/capabilities"
+	"github.com/petermetz/fabric/common/util"
+	"github.com/petermetz/fabric/msp"
+	cb "github.com/petermetz/fabric/protos/common"
 	"github.com/pkg/errors"
 )
 

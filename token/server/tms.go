@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 package server
 
 import (
-	"github.com/hyperledger/fabric/protos/token"
+	"github.com/petermetz/fabric/protos/token"
 )
 
 //go:generate counterfeiter -o mock/issuer.go -fake-name Issuer . Issuer

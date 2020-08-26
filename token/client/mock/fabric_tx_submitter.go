@@ -4,7 +4,7 @@ package mock
 import (
 	sync "sync"
 
-	client "github.com/hyperledger/fabric/token/client"
+	client "github.com/petermetz/fabric/token/client"
 )
 
 type FabricTxSubmitter struct {

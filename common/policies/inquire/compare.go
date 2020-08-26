@@ -11,8 +11,8 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/petermetz/fabric/common/policies"
+	"github.com/petermetz/fabric/protos/msp"
 )
 
 // ComparablePrincipal defines an MSPPrincipal that can be compared to other principals

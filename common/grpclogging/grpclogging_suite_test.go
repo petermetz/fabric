@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/grpclogging/testpb"
+	"github.com/petermetz/fabric/common/grpclogging/testpb"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
 
-//go:generate protoc --proto_path=$GOPATH/src/github.com/hyperledger/fabric/common/grpclogging/testpb --go_out=plugins=grpc:$GOPATH/src $GOPATH/src/github.com/hyperledger/fabric/common/grpclogging/testpb/echo.proto
+//go:generate protoc --proto_path=$GOPATH/src/github.com/petermetz/fabric/common/grpclogging/testpb --go_out=plugins=grpc:$GOPATH/src $GOPATH/src/github.com/petermetz/fabric/common/grpclogging/testpb/echo.proto
 
 func TestGrpclogging(t *testing.T) {
 	RegisterFailHandler(Fail)

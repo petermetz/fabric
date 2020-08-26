@@ -9,8 +9,8 @@ package persistence
 import (
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/petermetz/fabric/common/chaincode"
+	"github.com/petermetz/fabric/core/common/ccprovider"
 	"github.com/pkg/errors"
 )
 

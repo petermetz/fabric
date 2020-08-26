@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/petermetz/fabric/core/ledger"
+	"github.com/petermetz/fabric/core/ledger/kvledger"
+	"github.com/petermetz/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

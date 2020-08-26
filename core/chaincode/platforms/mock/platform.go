@@ -5,7 +5,7 @@ import (
 	tar "archive/tar"
 	sync "sync"
 
-	platforms "github.com/hyperledger/fabric/core/chaincode/platforms"
+	platforms "github.com/petermetz/fabric/core/chaincode/platforms"
 )
 
 type Platform struct {

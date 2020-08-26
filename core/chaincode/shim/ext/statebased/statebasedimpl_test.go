@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/core/chaincode/shim/ext/statebased"
+	"github.com/petermetz/fabric/common/cauthdsl"
+	"github.com/petermetz/fabric/core/chaincode/shim/ext/statebased"
 	"github.com/stretchr/testify/assert"
 )
 

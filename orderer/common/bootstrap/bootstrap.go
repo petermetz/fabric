@@ -4,7 +4,7 @@
 package bootstrap
 
 import (
-	ab "github.com/hyperledger/fabric/protos/common"
+	ab "github.com/petermetz/fabric/protos/common"
 )
 
 // Helper defines the functions a bootstrapping implementation should provide.

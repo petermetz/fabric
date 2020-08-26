@@ -8,8 +8,8 @@ package etcdraft
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/petermetz/fabric/common/flogging"
+	cb "github.com/petermetz/fabric/protos/common"
 )
 
 // blockCreator holds number and hash of latest block

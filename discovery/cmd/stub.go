@@ -9,12 +9,12 @@ package discovery
 import (
 	"context"
 
-	"github.com/hyperledger/fabric/cmd/common"
-	"github.com/hyperledger/fabric/cmd/common/comm"
-	"github.com/hyperledger/fabric/cmd/common/signer"
-	"github.com/hyperledger/fabric/discovery/client"
-	. "github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/petermetz/fabric/cmd/common"
+	"github.com/petermetz/fabric/cmd/common/comm"
+	"github.com/petermetz/fabric/cmd/common/signer"
+	"github.com/petermetz/fabric/discovery/client"
+	. "github.com/petermetz/fabric/protos/discovery"
+	"github.com/petermetz/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

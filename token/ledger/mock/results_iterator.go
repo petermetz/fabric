@@ -4,8 +4,8 @@ package mock
 import (
 	"sync"
 
-	ledgercommon "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/token/ledger"
+	ledgercommon "github.com/petermetz/fabric/common/ledger"
+	"github.com/petermetz/fabric/token/ledger"
 )
 
 type ResultsIterator struct {

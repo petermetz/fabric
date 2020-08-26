@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/ccmetadata"
+	"github.com/petermetz/fabric/common/flogging"
+	"github.com/petermetz/fabric/core/chaincode/platforms/ccmetadata"
 	"github.com/pkg/errors"
 )
 

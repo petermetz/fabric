@@ -8,7 +8,7 @@ package statecouchdb
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/petermetz/fabric/core/ledger/kvledger/txmgmt/version"
 	"github.com/stretchr/testify/assert"
 )
 

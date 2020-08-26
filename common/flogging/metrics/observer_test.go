@@ -9,9 +9,9 @@ package metrics_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging/metrics"
-	commonmetrics "github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric/common/metrics/metricsfakes"
+	"github.com/petermetz/fabric/common/flogging/metrics"
+	commonmetrics "github.com/petermetz/fabric/common/metrics"
+	"github.com/petermetz/fabric/common/metrics/metricsfakes"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zapcore"
 )

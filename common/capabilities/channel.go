@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package capabilities
 
 import (
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/petermetz/fabric/msp"
+	cb "github.com/petermetz/fabric/protos/common"
 )
 
 const (

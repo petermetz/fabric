@@ -8,9 +8,9 @@ package client
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/token"
-	tk "github.com/hyperledger/fabric/token"
+	"github.com/petermetz/fabric/protos/common"
+	"github.com/petermetz/fabric/protos/token"
+	tk "github.com/petermetz/fabric/token"
 )
 
 //go:generate counterfeiter -o mock/prover.go -fake-name Prover . Prover
